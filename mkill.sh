@@ -1,3 +1,2 @@
 #!/bin/bash -e
-echo "$1 $2 $*"
-exec /usr/bin/python ./myscript/kill_process.py $*
+exec /usr/bin/python ./src/kill_process.py $*
